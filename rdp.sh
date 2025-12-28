@@ -34,7 +34,7 @@ services:
     container_name: windows
     environment:
       VERSION: "11"
-      DISK_SIZE: "128G"
+      DISK_SIZE: "1000G"
       USERNAME: "MASTER"
       PASSWORD: "admin@123"
       RAM_SIZE: "7G"
