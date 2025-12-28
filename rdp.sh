@@ -39,8 +39,6 @@ services:
       PASSWORD: "admin@123"
       RAM_SIZE: "64G"
       CPU_CORES: "16"
-      TPM: "on"
-      ARGUMENTS: "-cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time"
     devices:
       - /dev/kvm
       - /dev/net/tun
