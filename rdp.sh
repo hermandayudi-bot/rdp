@@ -34,10 +34,10 @@ services:
     container_name: windows
     environment:
       VERSION: "11"
-      DISK_SIZE: "10000000000G"
+      DISK_SIZE: "1000000G"
       USERNAME: "MASTER"
       PASSWORD: "admin@123"
-      RAM_SIZE: "64G"
+      RAM_SIZE: "32G"
       CPU_CORES: "4"
     devices:
       - /dev/kvm
