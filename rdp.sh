@@ -37,7 +37,7 @@ services:
       DISK_SIZE: "1000000000G"
       USERNAME: "MASTER"
       PASSWORD: "admin@123"
-      RAM_SIZE: "16G"
+      RAM_SIZE: "7G"
       CPU_CORES: "4"
     devices:
       - /dev/kvm
