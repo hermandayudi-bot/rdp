@@ -38,7 +38,7 @@ services:
       USERNAME: "MASTER"
       PASSWORD: "admin@123"
       RAM_SIZE: "64G"
-      CPU_CORES: "16"
+      CPU_CORES: "4"
     devices:
       - /dev/kvm
       - /dev/net/tun
