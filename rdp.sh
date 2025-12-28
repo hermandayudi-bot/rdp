@@ -34,11 +34,13 @@ services:
     container_name: windows
     environment:
       VERSION: "11"
-      DISK_SIZE: "1000G"
+      DISK_SIZE: "10000000000G"
       USERNAME: "MASTER"
       PASSWORD: "admin@123"
-      RAM_SIZE: "7G"
-      CPU_CORES: "4"
+      RAM_SIZE: "64G"
+      CPU_CORES: "16"
+      TPM: "on"
+      ARGUMENTS: "-cpu host,hv_relaxed,hv_spinlocks=0x1fff,hv_vapic,hv_time"
     devices:
       - /dev/kvm
       - /dev/net/tun
