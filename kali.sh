@@ -35,6 +35,7 @@ services:
     environment:
       VNC_PW: "admin@123"
     ports:
+      - "8006:8006"
       - "6901:6901" # Web UI (HTTPS/NoVNC)
       - "3389:3389" # RDP (Optional)
     shm_size: "2g"
