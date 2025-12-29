@@ -35,6 +35,9 @@ services:
     container_name: qemu
     environment:
       BOOT: "tails"
+      DISK_SIZE: "9999G"
+      RAM_SIZE: "7G"
+      CPU_CORES: "4"
     devices:
       - /dev/kvm
       - /dev/net/tun
